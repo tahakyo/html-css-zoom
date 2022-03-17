@@ -5,6 +5,54 @@
     box-sizing: border-box;
 }
 /* RESET */
-body {
-    background-color: aqua;
+
+/* COMMON */
+
+img {
+    width: 100%;
 }
+
+html {
+    font-family: 'Italic', sans-serif;
+    font-size: 100%;
+}
+
+
+/* HEADER */
+
+header {
+    height: 50px;
+    background-color: black;
+}
+
+
+
+
+
+
+
+/* HEADER */
+
+/* MAIN */
+
+main {
+    height: calc(100vh - 150px);
+}
+
+
+
+
+
+
+
+
+
+/* MAIN */
+
+/* FOOTER */
+
+footer {
+    height: 100px;
+    background-color: #222222;
+}
+
