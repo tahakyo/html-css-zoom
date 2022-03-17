@@ -48,9 +48,18 @@ header {
 
 main {
     height: calc(100vh - 150px);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    overflow-y: auto;
 }
 
-
+.frame-user {
+    width: 246px;
+    height: 146px;
+    background-color: bisque;
+    border: 1px solid black;
+}
 
 
 
