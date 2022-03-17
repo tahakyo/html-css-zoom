@@ -21,6 +21,9 @@ body {
     background-color: lightgray;
 }
 
+i {
+    color: white;
+}
 
 /* HEADER */
 
@@ -74,5 +77,19 @@ main {
 footer {
     height: 100px;
     background-color: #222222;
+    display: flex;
 }
 
+.left-side {
+    width: 20%;
+    background-color: yellow;
+}
+
+.center {
+    width: calc(100vw - 40%);
+}
+
+.right-side {
+    width: 20%;
+    background-color: yellow;
+}
