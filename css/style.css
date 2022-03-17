@@ -19,7 +19,7 @@ html {
 }
 
 body {
-    background-color: lightgray;
+    background-color: black;
 }
 
 i {
@@ -28,16 +28,24 @@ i {
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 /* HEADER */
 
 header {
     height: 50px;
-    background-color: aqua;
+    background-color: black;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+}
+
+.speaker-view, .full-screen {
+    background-color: #4a4a4a;
+    border-radius: 3px;
+    font-size: small;
+    padding: 0.3rem;
 }
 
 .full-screen {
@@ -55,7 +63,7 @@ header {
 /* MAIN */
 
 main {
-    height: calc(100vh - 150px);
+    height: calc(100vh - 125px);
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -63,10 +71,21 @@ main {
 }
 
 .frame-user {
+    margin: .5rem;
     width: 246px;
     height: 146px;
-    background-color: bisque;
     border: 1px solid black;
+    background-image: url('https://picsum.photos/250/150'); 
+    position: relative;   
+}
+
+.name-id {
+    position: absolute;
+    bottom: 0;
+    background-color: #4a4a4a;
+    font-size: small;
+    padding: 0.2em 0.5em;
+    opacity: 70%;
 }
 
 
@@ -80,7 +99,7 @@ main {
 /* FOOTER */
 
 footer {
-    height: 100px;
+    height: 75px;
     background-color: #222222;
     display: flex;
 }
