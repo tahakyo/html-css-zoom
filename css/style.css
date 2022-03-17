@@ -17,12 +17,23 @@ html {
     font-size: 100%;
 }
 
+body {
+    background-color: lightgray;
+}
+
 
 /* HEADER */
 
 header {
     height: 50px;
-    background-color: black;
+    background-color: aqua;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.full-screen {
+    margin: 0 .5em 0;
 }
 
 
