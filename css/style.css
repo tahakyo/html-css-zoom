@@ -15,6 +15,7 @@ img {
 html {
     font-family: 'Italic', sans-serif;
     font-size: 100%;
+    color: white;
 }
 
 body {
@@ -23,6 +24,10 @@ body {
 
 i {
     color: white;
+}
+
+a {
+    text-decoration: none;
 }
 
 /* HEADER */
@@ -52,7 +57,7 @@ header {
 main {
     height: calc(100vh - 150px);
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     overflow-y: auto;
 }
@@ -80,16 +85,72 @@ footer {
     display: flex;
 }
 
+/* LEFT-SIDE */
 .left-side {
     width: 20%;
-    background-color: yellow;
+    /* background-color: black; */
+    display: flex;
+}
+.icon-item {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: .5rem;
 }
 
+/* LEFT-SIDE */
+
+/* CENTER */
 .center {
-    width: calc(100vw - 40%);
+    width: calc(100vw - 35%);
+    height: 100%;
+    display: flex;
+    justify-content: center;
 }
 
+
+
+
+
+
+
+
+/* CENTER */
+
+/* RIGHT-SIDE */
 .right-side {
-    width: 20%;
-    background-color: yellow;
+    width: 15%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: flex-end;
 }
+
+
+
+.icon i {
+    padding: .2em;
+}
+
+.text {
+    display: flex;
+    font-size: .7em;
+    flex-wrap: nowrap;
+}
+.chevron {
+    padding: 0 .5em 0 1.5em;
+    font-size: .5em;
+}
+.btn-end {
+    display: flex;
+    background-color: #4a4a4a;
+}
+
+.btn-end a {
+    display: flex;
+    align-self: center;
+    color: red;
+    font-size: .7em;
+    padding: 0 2em;
+}
+
+/* RIGHT-SIDE */
